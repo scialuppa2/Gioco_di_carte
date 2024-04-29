@@ -10,7 +10,7 @@ public class Licantropo implements Mostro, Umano {
     protected Random random;
 
     public Licantropo(boolean luna, Random random) {
-    	this.random = random;
+    	this.random = random;    	
         isUomo = !luna;
         if (luna) {
             forzaMostro = 20;
